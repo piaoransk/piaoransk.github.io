@@ -12,8 +12,6 @@ If we list all the natural numbers below 10 that are multiples of 3 or 5, we get
 Find the sum of all the multiples of 3 or 5 below 1000.
 
 ## Answer1:
-###  Find the sum of all the multiples of 3 or 5 below 1000.
-
 
 As you have solved this problem we do not have to explain that all numbers divisible by 3
 and/or by 5 should be counted.
@@ -31,7 +29,9 @@ if (i mod 3=0) or (i mod 5)=0 then sum:=sum+i
 output sum
 ```
 (In some programming languages the mod operator is written as %)
+
 ## Answer2:
+
 Simple enough you might say.
 But wait a minute: if we had asked to do the same for all numbers less than 1,000,000,000 that
 is going to take quite a while. Perhaps you would like to try out that first (make sure your sum
