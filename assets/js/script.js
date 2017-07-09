@@ -3,14 +3,14 @@ var windowScroll = function () {
     $(window).scroll(function () {
 
         var scrollPos = $(this).scrollTop();
-        
+
         var system ={win : false,mac : false,xll : false};
-        //¼ì²âÆ½Ì¨
+        //æ£€æµ‹å¹³å°
         var p = navigator.platform;
         system.win = p.indexOf("Win") == 0;
         system.mac = p.indexOf("Mac") == 0;
         system.x11 = (p == "X11") || (p.indexOf("Linux") == 0);
-        //ÅĞ¶ÏÆ½Ì¨ÀàĞÍ
+        //åˆ¤æ–­å¹³å°ç±»å‹
         if(system.win||system.mac||system.xll){
             if ($(window).scrollTop() > 70)
             {
@@ -19,13 +19,19 @@ var windowScroll = function () {
                 $('.site-header').removeClass('site-header-nav-scrolled');
             }
         }else{
-            //Èç¹ûÊÇÊÖ»úÔò½«¶¥À¸ÒÆ³ı½çÃæ
-            if ($(window).scrollTop() > 40) 
+            //å¦‚æœæ˜¯æ‰‹æœºè®¿é—®åˆ™å°†é¡¶æ ç§»é™¤ç•Œé¢
+            if ($(window).scrollTop() > 40)
             {
                 $('.site-header').addClass('site-header-nav-scrolled-ph');
             } else {
                 $('.site-header').removeClass('site-header-nav-scrolled-ph');
             }
+            // ç§»é™¤åº•éƒ¨ mega-octicon octicon-mark-github å›¾æ ‡
+            var icon =document.getElementById("mega-octicon octicon-mark-github");
+            icon.parentNode.removeChild(icon);
+            // ç§»é™¤ä¾§é¢å¯¼èˆª
+            var directory =document.getElementById("post-directory-module");
+            directory.parentNode.removeChild(directory);
         }
  });
 };

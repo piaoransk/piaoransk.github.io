@@ -6,21 +6,20 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: I am YuhuiXu # ex. I m Chuan
-name: YuhuiXu # ex. DONGChuan
-email: xyh421@qq.com
-location: ShangHai, China # ex. Nice, France
-company: ZZl
-#company_url: my_company_website
-github_url: https://github.com/yuhuixu # ex. https://github.com/DONGChuan
-description: show myself
+title: YuhuiXu
+name: YuhuiXu
+email: xyh421@gmail.com
+#local_url: http://j.map.baidu.com/uHv5B #baidu map
+local_url: https://goo.gl/maps/djooV4kwjSx #google map
+location: ShangHai, China
+company: Fintecher
+company_url: http://www.fintecher.cn/
+github_url: https://github.com/yuhuixu
+blog: CSDN
+blog_url: http://blog.csdn.net/xyh421
+description: This is a personal website of YuhuiXu | 个人博客，用于记录学习笔记
 favicon: favicon.png # Image must be in assets/images
-repository: yuhuixu/yuhuixu.github.io # ex. DONGChuan/DONGChuan.github.io
-
-# The base hostname & protocol for your site
-# For local test, please use http://localhost:4000
-# For production, use your github page url. ex. http://dongchuan.github.io
-url: http://localhost:4000
+#url: http://yuhuixu.cn # the base hostname & protocol for your site
 
 ## Gem
 gems:
@@ -33,13 +32,13 @@ gems:
 # Build settings
 markdown: kramdown
 highlighter: rouge
-lsi:         false
+lsi: false
 excerpt_separator: "\n\n"
 
-source:      .
+source: .
 destination: ./_site
 
-quiet:    false
+quiet: false
 defaults: []
 
 kramdown:
@@ -47,13 +46,13 @@ kramdown:
   enable_coderay: true
 
 # Disque
-disque: my_disque_settings # ex. httpdongchuangithubio.disqus.com
+disque: 1111yuhuixu.disqus.com
 
 # Pagination
-paginate: 10
+paginate: 8
 paginate_path: 'page:num'
 
-# Navigation. If you do not like these modules, just remove them :D
+# Navigation
 navs:
   -
     href: /
@@ -79,14 +78,19 @@ navs:
 side_bar_repo_limit: 5 # Number of repos to show
 
 # Google Analytics
-analytics :
-  provider : google
-  google :
-      tracking_id : 'tracking_id'  # ex. UA-72165600-X
+# analytics :
+#   provider : google
+#   google :
+#       tracking_id : 'UA-72165600-1'
 
 
 # For about.html. Fell free to create your own!
-skill_software_keywords: [Java, C, C++, Qt, Python, MySQL, Oracle, SQLite, PL/SQL, Design Patterns]
-skill_j2ee_keywords: [Spring, Struct, Hibernet, MyBatis, JSP]
-skill_web_keywords: [HTML, CSS, JS, JQuery, Ajax, AngularJS, NodeJS, ExpressJS, MongoDB, Redis, PHP, Symfony, Boostrap]
-skill_mobile_app_keywords: [Android, Sketch UI Desgin]
+skill_programe_lanage: [Python, JAVA]
+skill_automation: [RobotFramework, Uiautomator, Sikuli]
+# skill_Java_keywords: [DBCP, Socket, c3p0, Struts2, Spring, SpringMVC, Mybatis, Maven, Json]
+skill_Tools_keywords: [Git, SVN, Eclipse, Pycharm]
+skill_Web_keywords: [HTML, CSS, JavaScript, Selenium]
+skill_Android_keywords: [Android, Monkey, MonkeyRunner]
+skill_Computer_Network_keywords: [ HTTP]
+skill_SQL_keywords: [mysql, PostgreSQL]
+skill_OS_keywords: [Ubuntu, Win]
