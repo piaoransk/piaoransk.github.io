@@ -5,6 +5,7 @@ category: Projecteuler
 tags: [Projecteuler]
 ---
 
+
 ## Problem 1: Multiples of 3 and 5
 
 If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
@@ -30,6 +31,20 @@ output sum
 ```
 (In some programming languages the mod operator is written as %)
 
+Python example:
+```Python
+from datetime import datetime
+sum=0
+c1 = datetime.now()
+for i in range(1,10000000):
+    if not i%3 or not i%5:
+        # print i
+        sum=sum+i
+
+print "sum:",sum
+c2 = datetime.now()
+print 'elapsed time:',(c2-c1)         #elapsed time
+```
 ## Answer2:
 
 Simple enough you might say.
@@ -70,5 +85,23 @@ return n*(p*(p+1)) div 2
 EndFunction
 Output SumDivisibleBy(3)+SumDivisibleBy(5)-SumDivisibleBy(15)
 ```
-copyright Project Euler,further distribution without the consent of the author(s) prohibited
-Author: hk
+Python example
+```Python
+target = 10000000
+def SumDivisibleBy(x):
+    p=target/ x
+    return x*(p*(p+1))/2
+c1 = datetime.now()
+b=SumDivisibleBy(3)+SumDivisibleBy(5)-SumDivisibleBy(15)
+print b
+c2 = datetime.now()
+print 'elapsed time:',(c2-c1)        #elapsed time
+```
+
+output of two answer:
+```
+sum: 23333331666668
+elapsed time: 0:00:01.873000
+23333341666668
+elapsed time: 0:00:00
+```
