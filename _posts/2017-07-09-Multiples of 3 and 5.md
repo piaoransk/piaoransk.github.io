@@ -31,7 +31,7 @@ if (i mod 3=0) or (i mod 5)=0 then sum:=sum+i
 output sum
 ```
 (In some programming languages the mod operator is written as %)
-
+## Answer2:
 Simple enough you might say.
 But wait a minute: if we had asked to do the same for all numbers less than 1,000,000,000 that
 is going to take quite a while. Perhaps you would like to try out that first (make sure your sum
