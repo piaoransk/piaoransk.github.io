@@ -6,20 +6,20 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: YuhuiXu
-name: YuhuiXu
+title: piaoransk
+name: piaoransk
 email: xyh421@gmail.com
 #local_url: http://j.map.baidu.com/uHv5B #baidu map
 local_url: https://goo.gl/maps/djooV4kwjSx #google map
 location: ShangHai, China
 company: Fintecher
 company_url: http://www.fintecher.cn/
-github_url: https://github.com/yuhuixu
+github_url: https://github.com/piaoransk
 blog: CSDN
 blog_url: http://blog.csdn.net/xyh421
-description: This is a personal website of YuhuiXu | 个人博客，用于记录学习笔记
+description: This is a personal website of piaoransk | 个人博客，用于记录学习笔记
 favicon: favicon.png # Image must be in assets/images
-#url: http://yuhuixu.cn # the base hostname & protocol for your site
+#url: http://piaoransk.cn # the base hostname & protocol for your site
 
 ## Gem
 gems:
@@ -46,7 +46,7 @@ kramdown:
   enable_coderay: true
 
 # Disque
-disque: 1111yuhuixu.disqus.com
+disque: 1111piaoransk.disqus.com
 
 # Pagination
 paginate: 8

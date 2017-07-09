@@ -10,7 +10,7 @@ menu: Bookmark
 - [Kleinberg.Tardos.Algorithm.Design.pdf](http://www.cs.princeton.edu/~wayne/kleinberg-tardos/pdf/01StableMatching.pdf) - Kleinberg.Tardos.Algorithm.Design.pdf
 
 ## Python
-- [PegasusWang](https://github.com/yuhuixu/python-web-guide) - python-web-guide
+- [PegasusWang](https://github.com/piaoransk/python-web-guide) - python-web-guide
 - [robotframework](https://github.com/robotframework/robotframework) - Robot Framework
 - [Zhihu收藏夹](https://www.zhihu.com/collection/98579969) - 知乎收藏夹
 ## Books
